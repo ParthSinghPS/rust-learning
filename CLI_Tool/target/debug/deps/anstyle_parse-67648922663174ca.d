@@ -1,0 +1,9 @@
+D:\Desktop\rust\rust-learning\CLI_Tool\target\debug\deps\anstyle_parse-67648922663174ca.d: C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\lib.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\params.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\state\mod.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\state\definitions.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\state\table.rs
+
+D:\Desktop\rust\rust-learning\CLI_Tool\target\debug\deps\libanstyle_parse-67648922663174ca.rmeta: C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\lib.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\params.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\state\mod.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\state\definitions.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\state\table.rs
+
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\lib.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\params.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\state\mod.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\state\definitions.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-parse-0.2.7\src\state\table.rs:
