@@ -1,0 +1,9 @@
+D:\Desktop\rust\rust-learning\async-futures\target\debug\deps\hyper_rustls-c962eae7666afcb0.d: C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\lib.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\config.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\connector.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\connector\builder.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\stream.rs
+
+D:\Desktop\rust\rust-learning\async-futures\target\debug\deps\libhyper_rustls-c962eae7666afcb0.rmeta: C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\lib.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\config.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\connector.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\connector\builder.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\stream.rs
+
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\lib.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\config.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\connector.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\connector\builder.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.7\src\stream.rs:

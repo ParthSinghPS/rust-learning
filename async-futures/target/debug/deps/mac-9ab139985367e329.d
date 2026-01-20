@@ -1,0 +1,12 @@
+D:\Desktop\rust\rust-learning\async-futures\target\debug\deps\mac-9ab139985367e329.d: C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\lib.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\test.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\mem.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\format.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\syntax_ext.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\matches.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\inspect.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\cfg.rs
+
+D:\Desktop\rust\rust-learning\async-futures\target\debug\deps\libmac-9ab139985367e329.rmeta: C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\lib.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\test.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\mem.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\format.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\syntax_ext.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\matches.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\inspect.rs C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\cfg.rs
+
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\lib.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\test.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\mem.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\format.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\syntax_ext.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\matches.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\inspect.rs:
+C:\Users\Parth\ Singh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mac-0.1.1\src\cfg.rs:
