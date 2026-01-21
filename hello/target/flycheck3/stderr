@@ -1,58 +1,12 @@
-   0.016786300s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint: fingerprint error for hello v0.1.0 (D:\Desktop\rust\rust-learning\hello)/Check { test: false }/TargetInner { name: "hello", doc: true, ..: with_path("D:\\Desktop\\rust\\rust-learning\\hello\\src\\main.rs", Edition2024) }
-   0.016835700s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Desktop\rust\rust-learning\hello\target\debug\.fingerprint\hello-0ea3fd06cdaf793b\bin-hello`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
-   0.028383200s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint: fingerprint error for hello v0.1.0 (D:\Desktop\rust\rust-learning\hello)/Check { test: true }/TargetInner { name: "hello", doc: true, ..: with_path("D:\\Desktop\\rust\\rust-learning\\hello\\src\\main.rs", Edition2024) }
-   0.028416000s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Desktop\rust\rust-learning\hello\target\debug\.fingerprint\hello-093c9c26b6630ff3\test-bin-hello`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
+   0.017100500s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint: stale: changed "D:\\Desktop\\rust\\rust-learning\\hello\\src\\main.rs"
+   0.017135100s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint:           (vs) "D:\\Desktop\\rust\\rust-learning\\hello\\target\\debug\\.fingerprint\\hello-0ea3fd06cdaf793b\\dep-bin-hello"
+   0.017142500s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13413465186, nanos: 692312000 } < FileTime { seconds: 13413465188, nanos: 149317400 }
+   0.017331300s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint: fingerprint dirty for hello v0.1.0 (D:\Desktop\rust\rust-learning\hello)/Check { test: false }/TargetInner { name: "hello", doc: true, ..: with_path("D:\\Desktop\\rust\\rust-learning\\hello\\src\\main.rs", Edition2024) }
+   0.017363100s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "D:\\Desktop\\rust\\rust-learning\\hello\\target\\debug\\.fingerprint\\hello-0ea3fd06cdaf793b\\dep-bin-hello", reference_mtime: FileTime { seconds: 13413465186, nanos: 692312000 }, stale: "D:\\Desktop\\rust\\rust-learning\\hello\\src\\main.rs", stale_mtime: FileTime { seconds: 13413465188, nanos: 149317400 } }))
+   0.018063900s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint: stale: changed "D:\\Desktop\\rust\\rust-learning\\hello\\src\\main.rs"
+   0.018090300s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint:           (vs) "D:\\Desktop\\rust\\rust-learning\\hello\\target\\debug\\.fingerprint\\hello-093c9c26b6630ff3\\dep-test-bin-hello"
+   0.018115400s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13413465186, nanos: 692312000 } < FileTime { seconds: 13413465188, nanos: 149317400 }
+   0.018404600s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint: fingerprint dirty for hello v0.1.0 (D:\Desktop\rust\rust-learning\hello)/Check { test: true }/TargetInner { name: "hello", doc: true, ..: with_path("D:\\Desktop\\rust\\rust-learning\\hello\\src\\main.rs", Edition2024) }
+   0.018439500s  INFO prepare_target{force=false package_id=hello v0.1.0 (D:\Desktop\rust\rust-learning\hello) target="hello"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "D:\\Desktop\\rust\\rust-learning\\hello\\target\\debug\\.fingerprint\\hello-093c9c26b6630ff3\\dep-test-bin-hello", reference_mtime: FileTime { seconds: 13413465186, nanos: 692312000 }, stale: "D:\\Desktop\\rust\\rust-learning\\hello\\src\\main.rs", stale_mtime: FileTime { seconds: 13413465188, nanos: 149317400 } }))
     Checking hello v0.1.0 (D:\Desktop\rust\rust-learning\hello)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.23s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.20s
