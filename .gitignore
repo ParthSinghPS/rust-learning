@@ -1,0 +1,10 @@
+target/
+**/target/
+
+# Rust
+*.rs.bk
+
+# IDE
+.vscode/
+.idea/
+fun
