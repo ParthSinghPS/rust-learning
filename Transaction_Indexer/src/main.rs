@@ -1,6 +1,6 @@
 use sled::Db;
-use std::sync::mpsc;
-use std::thread;
+use tokio::sync::mpsc;
+use tokio::sync::mpsc::Sender;
 
 pub struct SledStorage {
     db: Db,
@@ -53,23 +53,21 @@ impl Storage for SledStorage {
     }
 }
 
-fn poll_ethblocknumber(sender: mpsc::Sender<String>) {}
+async fn poll_ethblocknumber(_sender: Sender<Block>) {}
 
-fn processor(receiver: mpsc::Receiver<Block>) {
-
+async fn processor(mut receiver: mpsc::Receiver<Block>) {
     let db = sled::open("my_db").unwrap();
     let storage = SledStorage::new(db);
 
-    for block in receiver {
-
+    while let Some(block) = receiver.recv().await {
         let block_number = block.number;
         let block_data = block.data;
 
         for tx in block.transactions {
-            let tx_hash = tx.hash;
-            let tx_from = tx.from;
-            let tx_to = tx.to;
-            let tx_value = tx.value;
+            let _tx_hash = tx.hash;
+            let _tx_from = tx.from;
+            let _tx_to = tx.to;
+            let _tx_value = tx.value;
 
             // future: update balances here
         }
@@ -78,15 +76,55 @@ fn processor(receiver: mpsc::Receiver<Block>) {
     }
 }
 
-fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let (tx, rx) = mpsc::channel();
+async fn fetch_block(block_number: u64) -> Result<Block, Box<dyn std::error::Error>> {
+    Ok(Block {
+        number: block_number,
+        data: vec![],
+        transactions: vec![],
+    })
+}
 
-    let listener_handle = thread::spawn(move || poll_ethblocknumber(tx));
+async fn backfilling(
+    sender: Sender<Block>,
+    current_head: u64,
+) -> Result<(), Box<dyn std::error::Error>> {
+    for block_number in 0..=current_head {
+        let tx = sender.clone();
 
-    let processor_handle = thread::spawn(move || processor(rx));
+        tokio::spawn(async move {
+            let block = fetch_block(block_number).await.unwrap();
 
-    listener_handle.join().unwrap();
-    processor_handle.join().unwrap();
+            tx.send(block).await.unwrap();
+        });
+    }
+
+    Ok(())
+}
+
+#[tokio::main]
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let (tx, rx) = tokio::sync::mpsc::channel(100);
+
+    let listener_tx = tx.clone();
+    let backfill_tx = tx.clone();
+
+    let listener_handle = tokio::spawn(async move {
+        poll_ethblocknumber(listener_tx).await;
+    });
+
+    let processor_handle = tokio::spawn(async move {
+        processor(rx).await;
+    });
+
+    let current_head = 1000;
+
+    let backfill_handle = tokio::spawn(async move {
+        backfilling(backfill_tx, current_head).await.unwrap();
+    });
+
+    listener_handle.await.unwrap();
+    processor_handle.await.unwrap();
+    backfill_handle.await.unwrap();
 
     Ok(())
 }
